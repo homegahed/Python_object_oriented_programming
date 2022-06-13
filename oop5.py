@@ -37,7 +37,7 @@ class Magazine(Periodical):
 
 
 class Newspaper(Periodical):
-    def __init__(self, title, Publisher, price, period):
+    def __init__(self, title, publisher, price, period):
         super().__init__(self, title, price, period, publisher)
         
         #self.title = title
