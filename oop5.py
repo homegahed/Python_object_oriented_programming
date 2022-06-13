@@ -21,3 +21,12 @@ class Newspaper:
         self.Publisher = Publisher
         self.price = price
         self.period = period
+
+
+b1 = Book("Brave New World", "Aldous Huxley", 311, 29.0)
+n1 = Newspaper("NY Times", "New York Times Company", 6.0, "Daily")
+m1 = Magazine("Scientific American", "Springer Nature", 5.99, "Monthly")
+
+
+print(b1)
+print(b1.title)
